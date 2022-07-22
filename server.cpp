@@ -56,7 +56,7 @@ int main( int argc, char *argv[] ) {
         perror("Error on listening");
         exit(EXIT_FAILURE);
     }
-	
+	printf("Server stared. Wating for connections..."); 
 	addrlen = sizeof(address);  
 	while (true) {
 		
